@@ -1,0 +1,5 @@
+word = input("Enter 9 letter word: ")
+
+print(f"\nSubsting 1: {word[0:3]}")
+print(f"Substing 2: {word[3:6]}")
+print(f"Substing 3: {word[6:9]}")
