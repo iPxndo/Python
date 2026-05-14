@@ -1,0 +1,10 @@
+print("Hello Xander!")
+
+happening = "Whats Happening \n"
+print(happening)
+
+firstName = input("First Name: ")
+lastName = input("Last Name: ")
+age = input("Age: ")
+
+print(f"\nNice to meet you {firstName} {lastName}, You are {age} years old!")
