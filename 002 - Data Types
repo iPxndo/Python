@@ -1,0 +1,11 @@
+product1Name = input("Enter Product Name: ")
+product1Price = input(f"Enter Price of {product1Name}: £")
+
+product2Name = input("\nEnter Product Name: ")
+product2Price = input(f"Enter Price of {product2Name}: £")
+
+cost = product1Price + product2Price
+
+print(f"\nProduct 1: {product1Name}, £{product1Price}")
+print(f"Product 2: {product2Name}, £{product2Price}")
+print(f"Total Cost = £{cost}")
